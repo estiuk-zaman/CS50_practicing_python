@@ -1,7 +1,7 @@
-x=int(input("What's x?"))
-y=int(input("What's y?"))
+x=int(input("What's your score?"))
+# y=int(input("What's y?"))
 
-if x!=y :
-    print("X is not equal to Y")
-else :
-    print("X is equal to Y")
+if x>=90 and x<=100:
+    print ("A+")
+elif x>=80 and x<=90:
+    print ("A-")
