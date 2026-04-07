@@ -7,3 +7,5 @@ match name:
         print("Hlw v1")
     case "Oishik":
         print("Hlw old")
+    case _:
+        print("Who?")
