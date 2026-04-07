@@ -1,6 +1,12 @@
-x=int(input("What's your score?"))
-
-if x%2==0:
-    print ("its an even")
-else:
-    print('Its an odd')
+def main():
+    x = int(input("What's X : "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+def is_even(n):
+    if n%2==0:
+        return True
+    else:
+        return False
+main()
