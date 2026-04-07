@@ -1,9 +1,7 @@
-def main():
-    x = int(input("What's X : "))
-    if is_even(x):
-        print("Even")
-    else:
-        print("Odd")
-def is_even(n):
-    return n%2==0
-main()
+name = input("Whats your name? ")
+if name == "istii":
+    print("Hlw new one")
+elif name == "Estiuk":
+    print("Hlw new one v2")
+elif name =="Oishik":
+    print("Hlw old one")
