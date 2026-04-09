@@ -9,3 +9,4 @@ match name:
         print("Hlw old")
     case _:
         print("Who?")
+        print("commit")
