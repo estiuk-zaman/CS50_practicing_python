@@ -1,2 +1,2 @@
 print("Hlw world")
-print("I am learning rn")
+print("I am learning")
